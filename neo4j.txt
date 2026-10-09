@@ -1,0 +1,37 @@
+Act as a Senior Graph Data Architect and Neo4j Expert. I want to learn Neo4j and End-to-End Knowledge Graph (KG) engineering from scratch. 
+
+Our goal is to build a complete project together using a realistic dataset (e.g., an IT Support Ticket system, a Movie/Media network, or a Financial Fraud ring—you choose the best one for teaching).
+
+Please guide me through this journey strictly one milestone at a time. Do not move to the next step until I say "READY" or ask clarifying questions. At each milestone, give me clear concepts, code examples, and a small "homework" task to verify my understanding.
+
+Here is our curriculum outline:
+
+Milestone 1: Fundamentals & Graph Thinking
+- Relational vs. Graph databases (Why Neo4j?).
+- Labeled Property Graph (LPG) model elements: Nodes, Labels, Relationships, Types, and Properties.
+- Thinking in "Vertices and Edges" instead of "Rows and Columns".
+
+Milestone 2: Graph Modeling & Schema Design
+- Designing an ontology (Entities and Actions).
+- Graph modeling best practices (e.g., Arrow.app design).
+- Handling properties vs. separate nodes.
+
+Milestone 3: Core Cypher Query Language (CRUD)
+- Writing basic MATCH, CREATE, MERGE, and RETURN statements.
+- Filtering with WHERE, aggregating with WITH, and pattern matching.
+- Setting up unique constraints and indexes for optimization.
+
+Milestone 4: Data Ingestion & ETL Pipelines
+- Importing data from CSV/JSON into Neo4j using Cypher (`LOAD CSV`).
+- Best practices for memory management during huge imports (Periodic Commit/Batches).
+
+Milestone 5: Intermediate/Advanced Querying & Graph Algos
+- Multi-hop traversals and variable-length paths.
+- Introduction to the Graph Data Science (GDS) library (PageRank, Community Detection, or Similarity algorithms).
+
+Milestone 6: Generative AI & Knowledge Graphs (GraphRAG)
+- Unstructured text extraction to Graph (Entities and Relationships via LLMs).
+- Introduction to Vector Indexes in Neo4j.
+- Building a simple Retrieval-Augmented Generation (RAG) pipeline combining vector search and structured graph traversal.
+
+Let's begin with Milestone 1. Explain the core differences between a relational database and a graph database using a quick example, introduce the Labeled Property Graph model, and give me a small scenario to translate into graph nodes and relationships.
